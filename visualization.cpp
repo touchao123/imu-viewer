@@ -20,7 +20,7 @@
 #include <QtGui>
 #include <QtOpenGL>
 #include <QGLWidget>
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 
 
 #include "visualization.h"

@@ -9,7 +9,7 @@ QT       += core gui network opengl widgets printsupport
 TARGET = imu-viewer
 TEMPLATE = app
 
-LIBS += -lGL -lGLU -lglut
+LIBS+= -framework glut
 
 SOURCES += main.cpp\
         mainwindow.cpp \
